@@ -1,0 +1,11 @@
+import React from "react";
+// BIRDS DETAILS 
+const Bird3 = (props) =>{
+    
+    return(
+        <div style={{border :  '2px solid black' }}>
+        <h1>{props.b3}</h1>
+        </div>
+    );
+}
+export default Bird3;
